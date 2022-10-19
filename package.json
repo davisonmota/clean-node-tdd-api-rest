@@ -4,7 +4,13 @@
   "description": "API desenvolvida guiada por teste.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "lint-staged": {
+    "*.js": [
+      "standard --fix"
+    ]
   },
   "repository": {
     "type": "git",
@@ -18,6 +24,8 @@
   },
   "homepage": "https://github.com/davisonmota/clean-node-tdd-api-rest#readme",
   "devDependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "standard": "^17.0.0"
   }
 }
