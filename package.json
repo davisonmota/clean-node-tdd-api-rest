@@ -4,7 +4,8 @@
   "description": "API desenvolvida guiada por teste.",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
+    "test": "jest --watch",
+    "jest:staged": "jest",
     "prepare": "husky install"
   },
   "standard": {
