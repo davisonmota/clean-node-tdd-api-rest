@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/davisonmota/clean-node-tdd-api-rest/issues"
   },
-  "homepage": "https://github.com/davisonmota/clean-node-tdd-api-rest#readme"
+  "homepage": "https://github.com/davisonmota/clean-node-tdd-api-rest#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
 }
