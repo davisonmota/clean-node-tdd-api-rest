@@ -7,11 +7,6 @@
     "test": "jest",
     "prepare": "husky install"
   },
-  "lint-staged": {
-    "*.js": [
-      "standard --fix"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davisonmota/clean-node-tdd-api-rest.git"
