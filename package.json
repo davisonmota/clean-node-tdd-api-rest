@@ -4,8 +4,8 @@
   "description": "API desenvolvida guiada por teste.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watch",
-    "jest:staged": "jest --passWithNoTests",
+    "test": "jest --watch --silent --noStackTrace",
+    "jest:staged": "jest --passWithNoTests --findRelatedTests  --silent  --noStackTrace",
     "prepare": "husky install"
   },
   "standard": {
