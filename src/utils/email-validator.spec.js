@@ -4,9 +4,14 @@ class EmailValidator {
     return validator.isEmail(email)
   }
 }
+
+const maKeSut = () => {
+  return new EmailValidator()
+}
+
 describe('Email Validator', () => {
   test('Should return true if validator returns true', () => {
-    const sut = new EmailValidator()
+    const sut = maKeSut()
     const isEmailValid = sut.isValid('valid_email@mail.com')
     expect(isEmailValid).toBe(true)
   })
