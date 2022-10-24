@@ -4,11 +4,11 @@
   "description": "API desenvolvida guiada por teste.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --silent --passWithNoTests",
+    "test": "jest --passWithNoTests",
     "test:unit": "npm test -- --watch -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
-    "jest:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage",
+    "jest:staged": "npm test -- --findRelatedTests --silent ",
+    "test:ci": "npm test -- --coverage --silent ",
     "prepare": "husky install"
   },
   "standard": {
