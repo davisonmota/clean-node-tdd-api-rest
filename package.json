@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node src/main/index.js ",
     "test": "jest --noStackTrace --silent --passWithNoTests --runInBand",
-    "test:unit": "npm test -- --watch -c jest-unit-config.js",
+    "test:unit": "npm test -- --watch --verbose -c jest-unit-config.js",
     "test:integration": "npm test -- --watch -c jest-integration-config.js",
     "jest:staged": "npm test -- --findRelatedTests --silent ",
     "test:ci": "npm test -- --coverage --silent ",
